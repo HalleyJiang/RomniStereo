@@ -6,9 +6,10 @@ The Pytorch code for our following paper
 >
 > [Hualie Jiang](https://hualie.github.io/), Rui Xu, Minglang Tan and Wenjie Jiang
 
-![](https://github.com/HalleyJiang/RomniStereo/blob/main/assets/pipeline.jpg)
 
-
+<p align="center">
+<img src='/assets/pipeline.jpg' width=800>
+</p>
 
 
 ## Preparation
