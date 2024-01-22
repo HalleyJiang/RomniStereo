@@ -6,8 +6,7 @@ The Pytorch code for our following paper
 >
 > [Hualie Jiang](https://hualie.github.io/), Rui Xu, Minglang Tan and Wenjie Jiang
 
-![](./assets/pipeline.jpg)
-
+![](https://github.com/HalleyJiang/RomniStereo/blob/main/assets/pipeline.jpg)
 
 
 
