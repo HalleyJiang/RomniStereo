@@ -8,7 +8,7 @@ The Pytorch code for our following paper
 
 
 <p align="center">
-<img src='/assets/pipeline.jpg' width=800>
+<img src='/assets/pipeline.jpg' width=1000>
 </p>
 
 
