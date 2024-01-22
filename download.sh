@@ -48,8 +48,8 @@ mv ./omnithings/cam4/0001.png omnithings/cam4/00001.png
 mv ./omnithings/cam4/0002.png omnithings/cam4/00002.png
 mv ./omnithings/cam4/0003.png omnithings/cam4/00003.png
 '
-# The above links , as Prof. Jongwoo Lim have moved to SNU from HnagyangU.
-# You can donwload the datasets from https://cuhko365-my.sharepoint.com/:u:/g/personal/217019005_link_cuhk_edu_cn/EUf0Pqx0x31Dj2vXSx4I8WcBsKVslYcyKo4PF_BiJpB-fQ?e=97ycFc, 
+# The above links are down, as Prof. Jongwoo Lim has moved to SNU from HnagyangU.
+# You can download the datasets from https://cuhko365-my.sharepoint.com/:u:/g/personal/217019005_link_cuhk_edu_cn/EUf0Pqx0x31Dj2vXSx4I8WcBsKVslYcyKo4PF_BiJpB-fQ?e=97ycFc, 
 # and extract to ../
 # Please note that the copyright of the datasets still belongs to the authors of sweepnet#omnimvs, and use these datasets under their licenses.
 
