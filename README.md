@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 #### Download Datasets 
 
-Please refer to *download.sh* download datasets 
+Please refer to *download.sh* for downloading datasets 
 
 
 
