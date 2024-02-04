@@ -102,7 +102,7 @@ class Dataset(torch.utils.data.Dataset):
         opts, self.ocams = utils.dbhelper.loadDBConfigs(
             self.dbname, self.db_path, opts)
         # update opts from the argument
-        opts.lut_fmt = 'racc_ds%d_lt_(%d,%d,%d).hwd'  # lookup table fmt [ds, equi_h, w, d]
+        opts.lut_fmt = 'RoS_ds%d_lt_(%d,%d,%d).hwd'  # lookup table fmt [ds, equi_h, w, d]
         opts = argparse(opts, db_opts)
 
         # set member variables
@@ -160,7 +160,6 @@ class Dataset(torch.utils.data.Dataset):
             LOG_INFO('Load lookup table: "%s"' % path)
             grids = np.fromfile(path, dtype=np.float32).reshape(
                 [4, h, w, int(self.num_invdepth / 2**self.num_downsample), 2])
-            grids = np.clip(grids, -2, 1)
             self.grids = [grids[i, ...].squeeze() for i in range(4)]
     # end __initSweep
 
@@ -201,9 +200,9 @@ class Dataset(torch.utils.data.Dataset):
             for i in range(4):
                 P = applyTransform(self.ocams[i].rig2cam, pts)
                 p = self.ocams[i].rayToPixel(P)
-                p[p < 0] = -1e5
                 grid = pixelToGrid(p, equirect_size,
                                    (self.ocams[i].height, self.ocams[i].width))
+                grid = np.clip(grid, -2, 1)
                 if output_gpu_tensor:
                     grids[i][..., d, :] = grid
                 else:
