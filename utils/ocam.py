@@ -77,7 +77,7 @@ class OcamModel:
         x2 = x2.reshape((1, -1))
         y2 = y2.reshape((1, -1))
         out = concat((y2, x2), axis=0)
-        out[:,theta.squeeze() > max_theta] = -1.0
+        out[:,theta.squeeze() > max_theta] = -1e5
         if out_theta:
             return out, theta
         else:
