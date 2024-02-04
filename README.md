@@ -4,7 +4,7 @@ The Pytorch code for our following paper
 
 > **RomniStereo: Recurrent Omnidirectional Stereo Matching**, [RA-L 2024 (pdf)](https://arxiv.org/pdf/2401.04345.pdf)
 >
-> [Hualie Jiang](https://hualie.github.io/), Rui Xu, Minglang Tan and Wenjie Jiang (Insta360)
+> [Hualie Jiang](https://hualie.github.io/), Rui Xu, Minglang Tan and Wenjie Jiang [**Insta360**](https://www.insta360.com/)
 
 
 <p align="center">
