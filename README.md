@@ -86,7 +86,7 @@ The project borrows codes from [OmniMVS](https://github.com/hyu-cvlab/omnimvs-py
 
 ## Citation
 
-Please cite our papers if you find our work useful in your research.
+Please cite our paper if you find our work useful in your research.
 
 ```
 @inproceedings{jiang2024romnistereo,
