@@ -37,9 +37,7 @@ pip install -r requirements.txt
 
 #### Download Datasets 
 
-Please refer to *download.sh* for downloading datasets 
-
-
+Please download the datasets from [dataset link](https://rvlab.snu.ac.kr/research/omnistereo) and use *download.sh* for processing. 
 
 
 ## Training 
